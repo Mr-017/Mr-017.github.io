@@ -2,14 +2,6 @@
 @import url("font-awesome.min.css");
 @import url("font.css");
 
-/*
-	Identity by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
-
 html,
 body,
 div,
@@ -154,8 +146,6 @@ body {
 	box-sizing: border-box;
 }
 
-/* Basic */
-
 @media screen and (max-width: 480px) {
 
 	html,
@@ -222,8 +212,6 @@ body:after {
 body.is-loading:after {
 	opacity: 1;
 }
-
-/* Type */
 
 body,
 input,
@@ -722,8 +710,6 @@ dl dd {
 	margin-left: 1.5em;
 }
 
-/* Button */
-
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -925,8 +911,6 @@ body.is-loading #main {
 #footer .copyright li:first-child {
 	border-left: 0;
 }
-
-/* Wrapper */
 
 #wrapper {
 	display: -moz-flex;
