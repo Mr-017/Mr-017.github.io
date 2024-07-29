@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>语录</title>
+    <link rel="stylesheet" media="all" href="../../css/recommend_css/sentence.css" />
+</head>
+<body>
+
+    <header class="header">
+        <ul class="firstUl">
+            <li class="firstLi">语录赏析</li>
+            <br/>
+        </ul>
+    </header>
+
+
+
+    <div>
+
+        <div class="firstDiv">
+            <ul>
+                <li>日复一日，年复一年，不过在重复他们有生之年的所作、所为、所思、所想、所恨</li>
+                <p>&nbsp;&nbsp;——来自作者推荐（Trainee）</p>
+                <li>人生没有偶然，只有一次又一次的相遇</li>
+                <p>&nbsp;&nbsp;——来自作者推荐（Trainee）</p>
+                <li>君子以坦荡立于世间，必将步步生花，一路繁花</li>
+                <p>&nbsp;&nbsp;——来自作者推荐（Trainee）</p>
+                <li>生活葬了纯真，欲望脏了灵魂，但你要你记住你是一个奋斗的青年</li>
+                <p>&nbsp;&nbsp;——来自作者推荐（Trainee）</p>
+                <li>我们在座的每一位终有一天会离开这个世界，我们要去思考，我们为什么要活在世上，
+                    我们活在这个世上的目的是什么，有没有一种信念能让我们为之生，而为之死。
+                    人生总会遇到苦难，为什么不能把人生的苦难当做剧本，去演好这一角
+                </li>
+                <p>&nbsp;&nbsp;——来自作者推荐（Trainee）</p>
+
+            </ul>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+
+        <div class="secondDiv">
+            <div class="secondDivA">
+                <br/>
+                <br/>
+                <br/>
+                <h1>赏析语录</h1>
+                <div class="word_index" >&nbsp;&nbsp;不论时间，不论国界，你知道有那样一个人和你有着某一片如此相似的灵魂，而你在若干年之后看见了他的文字，这是一件很温暖，很幸福的事情。</div>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+        </div>
+
+        <div class="threeDiv">
+            <div class="threeDivA">
+                <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=9JmG2cTFw7SSm4yZlZ2Y2pebmQ" target="_blank">我有推荐，发给作者</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        (function(){
+            pos = 0;
+            ticking = false;
+            var header = document.querySelector(".header");
+            window.addEventListener("scroll", function(e){
+                pos = window.scrollY;
+                if(pos > 100&&!ticking){
+                    header.classList.add("scrolledDown");
+                    ticking = true;
+                }
+                if(pos < 100 && ticking){
+                    header.classList.remove("scrolledDown");
+                    ticking = false;
+                }
+            });
+        })();
+    </script>
+
+</body>
+</html>

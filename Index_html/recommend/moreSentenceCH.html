@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>更多</title>
+    <link rel="stylesheet" media="all" href="../../css/recommend_css/moreSentence.css" />
+</head>
+<body>
+    <header class="header_more">
+        <ul class="moreSentenceUl01">
+            <li class="firstLi_more">感受读书之美，尽享文字之乐...</li>
+            <br/>
+        </ul>
+    </header>
+<div class="divBox_more01" >
+    <ul class="moreSentenceUl02">
+        <li>
+            <span>1.《1111》</span>
+            <div style="margin-left: 27px">
+                努力更新中，起大家敬请期待!努力更新中，起大家敬请期待!努力更新中，起大家敬请期待!
+            </div>
+        </li>
+        <li>
+            <span>2.《时间简史》</span>
+            <div style="margin-left: 27px">
+                努力更新中，起大家敬请期待!努力更新中，起大家敬请期待!努力更新中，起大家敬请期待!
+            </div>
+        </li>
+        <li>
+            <span>3.《3333》</span>
+            <div style="margin-left: 27px">
+                努力更新中，起大家敬请期待!努力更新中，起大家敬请期待!努力更新中，起大家敬请期待!
+            </div>
+        </li>
+        <li>
+            <span>4.《4444》</span>
+            <div style="margin-left: 27px">
+                努力更新中，起大家敬请期待!努力更新中，起大家敬请期待!努力更新中，起大家敬请期待!
+            </div>
+        </li>
+    </ul>
+</div>
+
+    <script>
+        (function(){
+            pos = 0;
+            ticking = false;
+            var header = document.querySelector(".header_more");
+            window.addEventListener("scroll", function(e){
+                pos = window.scrollY;
+                if(pos > 100&&!ticking){
+                    header.classList.add("scrolledDown_more");
+                    ticking = true;
+                }
+                if(pos < 100 && ticking){
+                    header.classList.remove("scrolledDown_more");
+                    ticking = false;
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

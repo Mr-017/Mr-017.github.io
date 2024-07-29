@@ -1,0 +1,219 @@
+
+body{
+    background-image: url("../../img/recommend_img/01.jpg");
+    background-size:100% 100% ;
+    background-attachment: fixed;
+}
+div{
+    display: inline-block;
+}
+.firstDiv{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-family:"新宋体";
+    color: #000000;
+    display: inline-block;
+    width: 660px;
+    height: auto;
+}
+.firstDiv li{
+    padding-right:30px;
+    color: white;
+    line-height: 25px;
+
+}
+.firstLi{
+    height: 43px;
+    line-height: 47px;
+    padding: 5px;
+    position:fixed;
+    top: 5px;
+    margin-left: 17px;
+    list-style-type:none;
+    font-size: 27px;
+    color: #d8d6cc;
+    font-family:"华文行楷";
+    border-radius: 35px;
+    /*background: linear-gradient(#4d729e, #89bce7, #4c82b4);*/
+    z-index: 6;
+}
+.secondDiv{
+    position: fixed;
+}
+.secondDivA{
+    border-radius: 36px;
+    margin-left: 40px;
+    margin-top: 105px;
+    width: 660px;
+    height: 330px;
+    text-align: center;
+
+}
+p{
+    font-family:'宋体';
+    color: #bce1f9;
+}
+.threeDiv{
+    position: fixed;
+    bottom: 25px;
+    right: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 180px;
+    line-height: 35px;
+    text-align: center;
+    height: 35px;
+}
+a{
+    color: #287abf;
+    font-size: 17px;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover{
+    color: #85624b;
+}
+
+.content{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    padding-top: 64px;
+}
+.scrolledDown{
+    background: #000000;
+}
+.header{
+    width: 100%;
+    height: 66px;
+    background: rgba(133, 98, 75, 0.8);
+    color: white;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: background 1s;
+    z-index: 6;
+}
+.header div{
+    margin-left: 50px;
+    line-height: 66px;
+}
+.scrolledDown{
+    background: #000000;
+}
+.content{
+    width: 630px;
+    height: auto;
+    /*border: #c83e3d solid 1px;*/
+    margin: 0 auto;
+
+}
+#dev011{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 630px;
+    /*border: black solid 1px;*/
+
+}
+#dev011 ul li{
+    box-sizing: border-box;
+    width: 530px;
+    height: 170px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 16px;
+    border-radius: 10px;
+    /*background: #f6f6f6;*/
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 5px 5px 6px 0px #b38465;
+    margin-top: 30px;
+
+}
+#dev02{
+
+}
+/*保证模块对齐*/
+.dev012li01{
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    width: 520px;
+    height: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: #bce1f9 solid 2px;
+}
+.devTwoli012{
+    display: inline-block;
+}
+.devTwoli011{
+    display: inline-block;
+    float: left;
+    margin-top: 14px;
+    margin-left: 5px;
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+}
+.devTwoli012{
+    float: left;
+    width: 507px;
+    margin-left: 12px;
+    margin-top: 25px;
+    line-height: 27px;
+    font-size: 19px;
+    font-family:"华文行楷";
+    color: black;
+}
+.devOneli01{
+    box-sizing: border-box;
+    width: 530px;
+    height: 210px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 16px;
+    border-radius: 10px;
+    /*background: #f6f6f6;*/
+    background-color: #ededed;
+    box-shadow: 5px 5px 6px 0px #ddefed;
+    margin-top: 30px;
+}
+.devOneli012{
+    float: left;
+    width: 507px;
+    margin-left: 12px;
+    margin-top: 13px;
+    line-height: 27px;
+    font-size: 19px;
+    font-family:"华文行楷";
+    color: black;
+}
+.devTwoli013{
+    float: left;
+    width: 507px;
+    line-height: 27px;
+    font-family:"华文行楷";
+    cursor:pointer;
+    font-size: 22px;
+    margin-top: -10px;
+    margin-left: 420px;
+    color: #78abdf;
+}
+/*宋体、黑体、隶书、楷体、Times New Roman等*/
+.zhan_or_shou{
+    display: inline-block;
+    margin-top: 14px;
+    margin-right: 25px;
+    font-family:"隶书";
+    font-size: 18px;
+    color: #ccccca;
+    float: right;
+}
+.zhan_or_shou_word{
+    font-family:'黑体';
+    font-size: 14px;
+    font-weight: bold;
+}
